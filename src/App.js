@@ -19,7 +19,7 @@ function Categ({title,objects,onPressAdd}){
 
 function Card({name,cost,com,loc}){
   return(
-    <div style={{display:'flex',flexDirection:'column',height:'370px',border:'1px solid black',backgroundColor:'white',borderRadius:'7px',overflow:'hidden'}}>
+    <div style={{display:'flex',flexDirection:'column',height:'370px',border:'1px solid gray',backgroundColor:'white',borderRadius:'7px',overflow:'hidden'}}>
       <div style={{display:'flex',alignItems:'center',justifyContent:'center',height:'190px'}}><img src={tablet} alt='img' width={'95%'} height={'90%'}/></div>
       <div style={{height:'170px'}}>
       <div style={{fontWeight:'bold',fontSize:'14px'}}>{name}</div>
