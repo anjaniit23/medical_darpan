@@ -24,9 +24,11 @@
 .searchbtn:hover{
     cursor: pointer;
 }
-.removebtn:hover{
+.removebtn:hover,.contact:hover{
     cursor: pointer;
 }
-.objectItem:hover,.contact:hover{
+.objectItem:hover{
     cursor: pointer;
+    background-color:#04AA6D !important;
+    color: white !important;
 }
